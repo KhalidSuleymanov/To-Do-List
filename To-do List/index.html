@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./Assets/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="full-div">
+        <div class="count col-lg-5 mx-auto mt-4">
+            <h3 class="des ms-6">Count: <span id="tasksCount">0</span></h3>
+        </div>
+        <div class=" noTask col-lg-5 mx-auto mt-4">
+            <h3 class="des1 ms-5-5 "></h3>
+        </div>
+        <div id="input-des" class="col-lg-5 mx-auto mt-4">
+            <input class="add form-control " type="text" placeholder="Please enter your movement....">
+            <button class="btn btn-success mt-3 w-100">
+                <p> Add movement </p>
+            </button>
+        </div>
+        <div class="alert alert-success text-center w-35 mx-auto mt-4 d-none" role="alert">
+            Task Added
+        </div>
+        <div id="list-for-tasks"></div>
+    </div>
+    <script async src="./Assets/to-do.js"></script>
+</body>
+
+</html>
